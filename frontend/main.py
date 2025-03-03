@@ -12,6 +12,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.append(project_root)
 
 from backend.chat import BedrockChat
+from backend.get_transcript import YouTubeTranscriptDownloader
 
 
 # Page config
